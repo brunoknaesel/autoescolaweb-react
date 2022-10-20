@@ -1,0 +1,2 @@
+C:\Users\Bruno Knaesel\source\repos\autoescola-webreact\obj\Debug\autoescola-webreact.esproj.SuggestedBindingRedirects.cache
+C:\Users\Bruno Knaesel\source\repos\autoescola-webreact\obj\Debug\autoescola-webreact.esproj.CoreCompileInputs.cache
