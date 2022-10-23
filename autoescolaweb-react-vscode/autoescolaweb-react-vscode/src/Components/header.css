@@ -1,0 +1,81 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #8B0D32;
+    display: flex;
+    align-items: center;
+}
+
+.logoCarroHeader {
+    padding-right: 90px;
+    padding-left: 30px;
+    max-width: 15%;
+    display: inline-block;
+}
+
+.alinhaHeader {
+    padding-right: 120px;
+}
+
+.textosHeader a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.textosHeader li {
+    align-items: center;
+    display: inline;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.barraPesquisaHeader {
+    border-radius: 16px;
+    border: none;
+    width: 250px;
+    height: 25px;
+}
+
+    .barraPesquisaHeader button {
+        background-color: #8B0D32;
+        border: none;
+        color: white;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+.infoUsuario {
+    margin-left: 16%;
+}
+
+    .infoUsuario h1 {
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .infoUsuario a {
+        color: white;
+        font-weight: unset;
+        background-color: #8B0D32;
+        border: none;
+    }
+
+    .infoUsuario button {
+        border: none;
+    }
+
+.usuarioLogo {
+    margin-left: 40%;
+}

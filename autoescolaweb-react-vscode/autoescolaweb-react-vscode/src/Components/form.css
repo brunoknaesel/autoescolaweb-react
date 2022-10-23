@@ -1,0 +1,157 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+.principalAgendamento {
+    width: 100%;
+    height: 63.2%;
+    background-color: rgb(247, 217, 222);
+}
+
+.agendarAulas {
+    width: 84%;
+    height: 48%;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1.5%;
+}
+
+.formularioAgendamento {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B0D32;
+    width: 25%;
+    height: 12%;
+    border-radius: 8px;
+    margin-left: 37%;
+}
+
+    .tituloForm h2 {
+        font-size: 18px;
+        color: white;
+    }
+
+select {
+    overflow-y: auto;
+    text-align: start;
+    width: 110px;
+}
+
+.formDataPicker {
+    width: 20%;
+    color: #8B0D32;
+    font-size: 12px;
+}
+
+    .formDataPicker p {
+        margin-bottom: 20%;
+        font-size: 16px;
+        color: #8B0D32;
+        margin-top: 8%;
+    }
+
+.formHorario {
+    width: 20%;
+    color: #8B0D32;
+    font-size: 12px;
+}
+
+.tabelaAulas {
+    width: 91.2%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .tabelaAulas thead {
+        background-color: #8B0D32;
+        color: white;
+    }
+
+.formTipoAula {
+    width: 18%;
+    color: #8B0D32;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+    .formTipoAula p {
+        margin-bottom: 20%;
+        font-size: 16px;
+        color: #8B0D32;
+        margin-top: 12%;
+    }
+
+.radioPratica {
+    width: 99%;
+}
+
+.radioTeorica {
+    width: 100%;
+}
+
+.formItens {
+    width: 18%;
+    color: #8B0D32;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+    .formItens p {
+        margin-bottom: 20%;
+        font-size: 16px;
+        color: #8B0D32;
+        margin-top: 8%;
+    }
+
+    .formItens input {
+        color: #8B0D32;
+    }
+
+    .formItens select {
+        color: #8B0D32;
+    }
+
+.botoesAgendamentoForm {
+    width: 10%;
+    display: inline-block;
+}
+
+.botaoAgendarForm {
+    color: white;
+    background-color: #8B0D32;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+    height: 27px;
+    border: none;
+    margin-top: 90%;
+}
+
+.botaoLimparForm {
+    color: rgb(116, 113, 113);
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+    height: 27px;
+    border: none;
+    text-decoration: underline;
+}

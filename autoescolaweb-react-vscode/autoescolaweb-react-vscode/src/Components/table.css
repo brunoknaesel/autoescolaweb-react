@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+.tabelaAulas {
+    width: 91.2%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .tabelaAulas thead {
+        background-color: #8B0D32;
+        color: white;
+    }
+
+thead {
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+}
+
+table {
+    font-size: 13px;
+    height: 220px;
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+td {
+    width: 260px;
+    text-align: center;
+}
+
+.linhaRosada {
+    background-color: #EFCED8;
+    color: #8B0D32;
+}
+
+.linhaBranquinha {
+    background-color: white;
+    color: #8B0D32;
+}
